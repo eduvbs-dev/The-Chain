@@ -5,7 +5,8 @@ int main() {
     int valor, nota100, nota50, nota20, nota10, nota5, nota2, nota1;
 
     scanf("%d", &valor);
-    
+    printf("%d\n", valor);
+
     nota100=valor/100;
     valor=valor%100;
     nota50=valor/50;
@@ -19,7 +20,7 @@ int main() {
     nota2=valor/2;
     valor=valor%2;
     nota1=valor/1;
-    
+        
     printf("%d nota(s) de R$ 100,00\n", nota100);
 
     printf("%d nota(s) de R$ 50,00\n", nota50);
