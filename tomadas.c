@@ -8,7 +8,7 @@ int main() {
 
     tomadas=(t1+t2+t3+t4)-3;
 
-    printf("%d", tomadas);
+    printf("%d\n", tomadas);
 
     return 0;
 }
