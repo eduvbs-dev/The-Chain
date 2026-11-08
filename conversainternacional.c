@@ -23,15 +23,11 @@ int main(){
 
                 strcpy(comp, idioma);
 
-            }
-
-        }
-
-        for(k=0; k<n_pessoas; k++){
+            }            
 
             if( strcmp(idioma, comp) != 0){
                 soma++;
-            }
+            }        
 
         }
 
@@ -40,6 +36,8 @@ int main(){
         printf("ingles\n");
 
         } else printf("%s\n", idioma);
+
+        soma = 0;
 
     }
 
